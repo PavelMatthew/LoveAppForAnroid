@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A83228"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewFrame"
+        android:layout_width="420dp"
+        android:layout_height="550dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/frame" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="230dp"
+        android:layout_height="168dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190sp"
+        android:src="@drawable/mission" />
+
+
+    <ImageButton
+        android:id="@+id/Cubes"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:background="#00FFFFFF"
+        android:scaleType="fitCenter"
+        android:src="@drawable/cubes"
+        android:layout_marginTop="655sp"
+        android:layout_centerHorizontal="true"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</RelativeLayout>
